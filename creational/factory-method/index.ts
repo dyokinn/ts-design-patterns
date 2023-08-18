@@ -4,7 +4,7 @@ import VehicleCreator from "./creators/VehicleCreator";
 import IVehicle from "./interfaces/IVehicle";
 
 // chamada do criador
-const creator:VehicleCreator = new TruckCreator()
+const creator:VehicleCreator = new BoatCreator()
 
 const vehicle:IVehicle = creator.getTransport()
 
